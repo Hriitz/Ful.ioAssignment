@@ -2,7 +2,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://game.co.uk"
+url = "https://instagram.com"
 response = requests.get(url)
 html_content = response.content
 
@@ -18,6 +18,7 @@ patterns= {
     'Next.js': r'<script[^>]*\bsrc=["\'][^"\']*next\.js[^"\']*["\'][^>]*>',
     'Materialize CSS': r'<link[^>]*href=["\'][^>]*materialize[^>]*["\'][^>]*>|<script[^>]*src=["\'][^>]*materialize[^>]*["\'][^>]*>',
     'Python': r'<script[^>]*>\s*var pythonScript',
+    'PHP' : r'\<\?php|php\?\>',
     'Google Maps': r'<script[^>]*\bsrc=["\'][^"\']*maps\.googleapis\.com[^"\']*["\'][^>]*>'
 }
 

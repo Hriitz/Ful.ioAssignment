@@ -1,10 +1,10 @@
 Technology Name: jQuery
 - Regex Pattern: jquery(\d\.\d+(\.\d+)?)?(\.min)?\.js
-- Sample Website: binance.com
+- Sample Website: python.org
 
 Technology Name: React  
 - Regex Pattern: react.*?\.js|<[^>]*\sdata-reactroot
-- Sample Website: openai.com
+- Sample Website: binance.com
 
 Technology Name: WooCommerce
 - Regex Pattern: woocommerce.*?\.js|<[^>]*\swc-(?:product|cart|checkout|order)-container
@@ -12,7 +12,7 @@ Technology Name: WooCommerce
 
 Technology Name: Bootstrap
 - Regex Pattern: bootstrap.*?\.css|<[^>]*\sclass=["'][^"']*?\b(?:container|row|col-[0-9]+)\b
-- Sample Website: gspcrop.in
+- Sample Website: colorlib.com
 
 Technology Name: Shopify
 - Regex Pattern: cdn\.shopify\.com\/s\/files\/
@@ -20,7 +20,7 @@ Technology Name: Shopify
 
 Technology Name: Next.js
 - Regex Pattern: \/_next\/
-- Sample Website: earthlink.net
+- Sample Website: openai.com
 
 Technology Name: Materialize CSS   
 - Regex Pattern: materialize.*?\.css|<link[^>]*\srel=["']stylesheet["'][^>]*\shref=["'][^"']*?materialize\.css
@@ -28,11 +28,11 @@ Technology Name: Materialize CSS
 
 Technology Name: PHP
 - Regex Pattern: <\?(?:php)?[\s\S]*?\?>
-- Sample Website: blue.b-cdn.net
+- Sample Website: wikipedia.org/
 
 Technology Name: Python
 - Regex Pattern: flask|django|tornado|python
-- Sample Website: python.org
+- Sample Website: instagram.com
 
 Technology Name: Google Maps
 - Regex Pattern: \/\/maps\.googleapis\.com\/maps\/api\/js
