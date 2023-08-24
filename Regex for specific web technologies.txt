@@ -1,0 +1,39 @@
+Technology Name: jQuery
+- Regex Pattern: jquery(\d\.\d+(\.\d+)?)?(\.min)?\.js
+- Sample Website: binance.com
+
+Technology Name: React  
+- Regex Pattern: react.*?\.js|<[^>]*\sdata-reactroot
+- Sample Website: openai.com
+
+Technology Name: WooCommerce
+- Regex Pattern: woocommerce.*?\.js|<[^>]*\swc-(?:product|cart|checkout|order)-container
+- Sample Website: intellipaat.com
+
+Technology Name: Bootstrap
+- Regex Pattern: bootstrap.*?\.css|<[^>]*\sclass=["'][^"']*?\b(?:container|row|col-[0-9]+)\b
+- Sample Website: gspcrop.in
+
+Technology Name: Shopify
+- Regex Pattern: cdn\.shopify\.com\/s\/files\/
+- Sample Website: store.stylecraze.com
+
+Technology Name: Next.js
+- Regex Pattern: \/_next\/
+- Sample Website: earthlink.net
+
+Technology Name: Materialize CSS   
+- Regex Pattern: materialize.*?\.css|<link[^>]*\srel=["']stylesheet["'][^>]*\shref=["'][^"']*?materialize\.css
+- Sample Website: game.co.uk
+
+Technology Name: PHP
+- Regex Pattern: <\?(?:php)?[\s\S]*?\?>
+- Sample Website: blue.b-cdn.net
+
+Technology Name: Python
+- Regex Pattern: flask|django|tornado|python
+- Sample Website: python.org
+
+Technology Name: Google Maps
+- Regex Pattern: \/\/maps\.googleapis\.com\/maps\/api\/js
+- Sample Website: kaspersky.com
